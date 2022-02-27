@@ -1,0 +1,67 @@
+{
+  "SNIPPET": {
+    "prefix": "cppsnip",
+    "body": [
+      "// <3",
+      "#include <bits/stdc++.h>",
+      "using namespace std;",
+      "using ll = long long;",
+      "using ld = long double;",
+      "#define endl '\\n'",
+      "#define F first",
+      "#define S second",    
+      "#define pb push_back",
+      "#define eb emplace_back",
+      "#define mp make_pair",
+      "#define all(x) (x).begin(), (x).end()",
+      "#define rall(x) (x).rbegin(), (x).rend()\n",
+      "void solve()",
+      "{",
+      "    $0",
+      "}\n",
+      "int main()",
+      "{",
+      "\tios::sync_with_stdio(false);",
+      "\tcin.tie(NULL);\n",
+      "#ifdef LOCAL",
+      "\tfreopen(\"/home/da3m0n/Documents/Projects/cpp/vscodeIOE/input.txt\", \"r\", stdin);",
+      "\tfreopen(\"/home/da3m0n/Documents/Projects/cpp/vscodeIOE/output.txt\", \"w\", stdout);",
+      "#endif\n",
+      "\tll T;",
+      "\tcin >> T;",
+      "\twhile (T--)",
+      "\t\tsolve();",
+      "\treturn 0;",
+      "}"
+    ],
+    "description": "personal preference based cpp snippet for competitive coding"
+  },
+
+  "BSNIPPET": {
+    "prefix": "bcppsnip",
+    "body": [
+      "// <3",
+      "#include <bits/stdc++.h>\n",
+      "void solve()",
+      "{",
+      "    $0",
+      "}\n",
+      "int main()",
+      "{",
+      "\tstd::ios::sync_with_stdio(false);",
+      "\tstd::cin.tie(NULL);\n",
+      "#ifdef LOCAL",
+      "\tfreopen(\"/home/da3m0n/Documents/Projects/cpp/vscodeIOE/input.txt\", \"r\", stdin);",
+      "\tfreopen(\"/home/da3m0n/Documents/Projects/cpp/vscodeIOE/output.txt\", \"w\", stdout);",
+      "#endif",
+      "",
+      "\tlong long T;",
+      "\tstd::cin >> T;",
+      "\twhile (T--)",
+      "\t\tsolve();",
+      "\treturn 0;",
+      "}"
+    ],
+    "description": "snipped with bare minimum for good practice in competitive coding"
+  }
+}
