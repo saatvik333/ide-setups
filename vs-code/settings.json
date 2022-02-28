@@ -1,0 +1,59 @@
+{
+    "editor.cursorStyle": "block",
+    // "workbench.preferredDarkColorTheme": "Simple Dark",
+    "workbench.iconTheme": "vscode-icons",
+    "explorer.confirmDelete": false,
+    "files.autoSaveDelay": 333,
+    "liveServer.settings.donotVerifyTags": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "files.autoSave": "afterDelay",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "git.confirmSync": false,
+    "code-runner.runInTerminal": true,
+    "editor.mouseWheelZoom": true,
+    "code-runner.clearPreviousOutput": true,
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.smoothScrolling": true,
+    "workbench.colorTheme": "Nord",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "dart.flutterSdkPath": "/home/da3m0n/flutter-dev/flutter",
+    "workbench.startupEditor": "none",
+    "editor.inlineSuggest.enabled": true,
+    "explorer.confirmDragAndDrop": false,
+    "code-runner.executorMap": {
+        "cpp": "cd $dir &&  g++ -std=c++17 -DLOCAL $fullFileName -o $fileNameWithoutExt && ./$fileNameWithoutExt"
+    },
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": true,
+        "markdown": true
+    },
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+}
