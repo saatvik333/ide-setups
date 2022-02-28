@@ -24,8 +24,9 @@
       "\tios::sync_with_stdio(false);",
       "\tcin.tie(NULL);\n",
       "#ifdef LOCAL",
-      "\tfreopen(\"/home/da3m0n/Documents/Projects/cpp/vscodeIOE/input.txt\", \"r\", stdin);",
-      "\tfreopen(\"/home/da3m0n/Documents/Projects/cpp/vscodeIOE/output.txt\", \"w\", stdout);",
+      "\tfreopen(\"/home/da3m0n/Documents/Projects/cpp/localIOE/input.txt\", \"r\", stdin);",
+      "\tfreopen(\"/home/da3m0n/Documents/Projects/cpp/localIOE/output.txt\", \"w\", stdout);",
+      "\tfreopen(\"/home/da3m0n/Documents/Projects/cpp/localIOE/error.txt\", \"w\", stdout);",
       "#endif\n",
       "\tll T;",
       "\tcin >> T;",
@@ -51,8 +52,9 @@
       "\tstd::ios::sync_with_stdio(false);",
       "\tstd::cin.tie(NULL);\n",
       "#ifdef LOCAL",
-      "\tfreopen(\"/home/da3m0n/Documents/Projects/cpp/vscodeIOE/input.txt\", \"r\", stdin);",
-      "\tfreopen(\"/home/da3m0n/Documents/Projects/cpp/vscodeIOE/output.txt\", \"w\", stdout);",
+      "\tfreopen(\"/home/da3m0n/Documents/Projects/cpp/localIOE/input.txt\", \"r\", stdin);",
+      "\tfreopen(\"/home/da3m0n/Documents/Projects/cpp/localIOE/output.txt\", \"w\", stdout);",
+      "\tfreopen(\"/home/da3m0n/Documents/Projects/cpp/localIOE/error.txt\", \"w\", stdout);",
       "#endif",
       "",
       "\tlong long T;",
@@ -62,6 +64,23 @@
       "\treturn 0;",
       "}"
     ],
-    "description": "snipped with bare minimum for good practice in competitive coding"
+    "description": "snippet with bare minimum for good practice in competitive coding"
+  },
+
+  "MSNIPPET": {
+    "prefix": "minsnip",
+    "body": [
+      "// <3",
+      "#include <bits/stdc++.h>",
+      "#define FastIO ios::sync_with_stdio(false); cin.tie(0)",
+      "using namespace std;\n",
+      "int main()",
+      "{",
+      "    $0",
+      "\tFastIO;",
+      "\treturn 0;",
+      "}"
+    ],
+    "description": "minimal snippet for cpp"
   }
 }
